@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D433F2B72E17C75300BFB057 /* newMusicShare3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newMusicShare3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D433F2C42E17C75600BFB057 /* newMusicShare3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newMusicShare3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D433F2CE2E17C75600BFB057 /* newMusicShare3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newMusicShare3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D433F2B72E17C75300BFB057 /* Music Info Getter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Info Getter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D433F2C42E17C75600BFB057 /* Music Info GetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music Info GetterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D433F2CE2E17C75600BFB057 /* Music Info GetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music Info GetterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		D433F2B82E17C75300BFB057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D433F2B72E17C75300BFB057 /* newMusicShare3.0.app */,
-				D433F2C42E17C75600BFB057 /* newMusicShare3.0Tests.xctest */,
-				D433F2CE2E17C75600BFB057 /* newMusicShare3.0UITests.xctest */,
+				D433F2B72E17C75300BFB057 /* Music Info Getter.app */,
+				D433F2C42E17C75600BFB057 /* Music Info GetterTests.xctest */,
+				D433F2CE2E17C75600BFB057 /* Music Info GetterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D433F2B62E17C75300BFB057 /* newMusicShare3.0 */ = {
+		D433F2B62E17C75300BFB057 /* Music Info Getter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D433F2D82E17C75600BFB057 /* Build configuration list for PBXNativeTarget "newMusicShare3.0" */;
+			buildConfigurationList = D433F2D82E17C75600BFB057 /* Build configuration list for PBXNativeTarget "Music Info Getter" */;
 			buildPhases = (
 				D433F2B32E17C75300BFB057 /* Sources */,
 				D433F2B42E17C75300BFB057 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				D433F2B92E17C75300BFB057 /* newMusicShare3.0 */,
 			);
-			name = newMusicShare3.0;
+			name = "Music Info Getter";
 			packageProductDependencies = (
 			);
 			productName = newMusicShare3.0;
-			productReference = D433F2B72E17C75300BFB057 /* newMusicShare3.0.app */;
+			productReference = D433F2B72E17C75300BFB057 /* Music Info Getter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D433F2C32E17C75600BFB057 /* newMusicShare3.0Tests */ = {
+		D433F2C32E17C75600BFB057 /* Music Info GetterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D433F2DB2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "newMusicShare3.0Tests" */;
+			buildConfigurationList = D433F2DB2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "Music Info GetterTests" */;
 			buildPhases = (
 				D433F2C02E17C75600BFB057 /* Sources */,
 				D433F2C12E17C75600BFB057 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				D433F2C72E17C75600BFB057 /* newMusicShare3.0Tests */,
 			);
-			name = newMusicShare3.0Tests;
+			name = "Music Info GetterTests";
 			packageProductDependencies = (
 			);
 			productName = newMusicShare3.0Tests;
-			productReference = D433F2C42E17C75600BFB057 /* newMusicShare3.0Tests.xctest */;
+			productReference = D433F2C42E17C75600BFB057 /* Music Info GetterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D433F2CD2E17C75600BFB057 /* newMusicShare3.0UITests */ = {
+		D433F2CD2E17C75600BFB057 /* Music Info GetterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D433F2DE2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "newMusicShare3.0UITests" */;
+			buildConfigurationList = D433F2DE2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "Music Info GetterUITests" */;
 			buildPhases = (
 				D433F2CA2E17C75600BFB057 /* Sources */,
 				D433F2CB2E17C75600BFB057 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				D433F2D12E17C75600BFB057 /* newMusicShare3.0UITests */,
 			);
-			name = newMusicShare3.0UITests;
+			name = "Music Info GetterUITests";
 			packageProductDependencies = (
 			);
 			productName = newMusicShare3.0UITests;
-			productReference = D433F2CE2E17C75600BFB057 /* newMusicShare3.0UITests.xctest */;
+			productReference = D433F2CE2E17C75600BFB057 /* Music Info GetterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D433F2B22E17C75300BFB057 /* Build configuration list for PBXProject "newMusicShare3.0" */;
+			buildConfigurationList = D433F2B22E17C75300BFB057 /* Build configuration list for PBXProject "Music Info Getter" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D433F2B62E17C75300BFB057 /* newMusicShare3.0 */,
-				D433F2C32E17C75600BFB057 /* newMusicShare3.0Tests */,
-				D433F2CD2E17C75600BFB057 /* newMusicShare3.0UITests */,
+				D433F2B62E17C75300BFB057 /* Music Info Getter */,
+				D433F2C32E17C75600BFB057 /* Music Info GetterTests */,
+				D433F2CD2E17C75600BFB057 /* Music Info GetterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		D433F2C62E17C75600BFB057 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D433F2B62E17C75300BFB057 /* newMusicShare3.0 */;
+			target = D433F2B62E17C75300BFB057 /* Music Info Getter */;
 			targetProxy = D433F2C52E17C75600BFB057 /* PBXContainerItemProxy */;
 		};
 		D433F2D02E17C75600BFB057 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D433F2B62E17C75300BFB057 /* newMusicShare3.0 */;
+			target = D433F2B62E17C75300BFB057 /* Music Info Getter */;
 			targetProxy = D433F2CF2E17C75600BFB057 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,12 +406,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.okunoyuta.myMusicShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okunoyuta.MusicInfoGetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -435,12 +436,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.okunoyuta.myMusicShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okunoyuta.MusicInfoGetter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +465,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newMusicShare3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/newMusicShare3.0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Info Getter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music Info Getter";
 			};
 			name = Debug;
 		};
@@ -482,7 +484,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newMusicShare3.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/newMusicShare3.0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Info Getter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music Info Getter";
 			};
 			name = Release;
 		};
@@ -523,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D433F2B22E17C75300BFB057 /* Build configuration list for PBXProject "newMusicShare3.0" */ = {
+		D433F2B22E17C75300BFB057 /* Build configuration list for PBXProject "Music Info Getter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D433F2D62E17C75600BFB057 /* Debug */,
@@ -532,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D433F2D82E17C75600BFB057 /* Build configuration list for PBXNativeTarget "newMusicShare3.0" */ = {
+		D433F2D82E17C75600BFB057 /* Build configuration list for PBXNativeTarget "Music Info Getter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D433F2D92E17C75600BFB057 /* Debug */,
@@ -541,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D433F2DB2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "newMusicShare3.0Tests" */ = {
+		D433F2DB2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "Music Info GetterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D433F2DC2E17C75600BFB057 /* Debug */,
@@ -550,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D433F2DE2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "newMusicShare3.0UITests" */ = {
+		D433F2DE2E17C75600BFB057 /* Build configuration list for PBXNativeTarget "Music Info GetterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D433F2DF2E17C75600BFB057 /* Debug */,
